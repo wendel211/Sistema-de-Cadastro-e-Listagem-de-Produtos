@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+    --accent-color: #e74c3c;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#app {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr {
+    transition: all 0.3s ease;
+}
+
+tr:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cadastroForm, #listagem {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+#cadastroForm:hover, #listagem:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#novoProduto {
+    background-color: var(--accent-color);
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+#novoProduto:hover {
+    background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+    #app {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    input, textarea, select, button {
+        font-size: 14px;
+    }
+}
