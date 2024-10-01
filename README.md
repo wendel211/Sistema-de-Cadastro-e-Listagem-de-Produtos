@@ -3,7 +3,8 @@
 **Visão Geral**
 
 Este projeto implementa um sistema de cadastro e listagem de produtos simples utilizando HTML, CSS e JavaScript puros. O sistema permite aos usuários cadastrar novos produtos com informações detalhadas e visualizar uma lista de produtos cadastrados, ordenada por valor.
-Funcionalidades
+
+**Funcionalidades**
 
 Cadastro de produtos com os seguintes campos:
 
@@ -33,27 +34,28 @@ Clone este repositório ou faça o download do arquivo index.html.
 Abra o arquivo index.html em qualquer navegador web moderno.
 Use a interface para cadastrar novos produtos e visualizar a lista de produtos cadastrados.
 
-Detalhes de Implementação
-HTML
+## Detalhes de Implementação
+
+**HTML**
 
 Utiliza semântica HTML5 para melhor estruturação e acessibilidade.
 Formulário de cadastro com validações básicas usando atributos HTML.
 
-CSS
+**CSS**
 
 Design responsivo utilizando flexbox e media queries.
 Variáveis CSS para fácil personalização de cores e estilos.
 Animações e transições suaves para melhorar a experiência do usuário.
 Layout moderno com sombras sutis e efeitos hover para interatividade.
 
-JavaScript
+**JavaScript**
 
 Programação orientada a objetos para gerenciamento de produtos.
 Manipulação do DOM para interações dinâmicas com a página.
 Uso de funções modernas do JavaScript como arrow functions e template literals.
 Ordenação dinâmica da lista de produtos.
 
-Decisões de Design
+**Decisões de Design**
 
 Single-Page Application: Optei por uma abordagem de página única para demonstrar a capacidade de criar uma aplicação completa e interativa sem a necessidade de navegação entre páginas.
 Código Integrado: Todo o HTML, CSS e JavaScript está em um único arquivo para facilitar a revisão e demonstrar a capacidade de organizar diferentes aspectos de uma aplicação web.
@@ -62,7 +64,7 @@ Estética Moderna: Utilizei uma paleta de cores vibrante e elementos de design m
 Validação de Formulário: Implementei validações básicas no formulário para garantir a integridade dos dados inseridos.
 Ordenação Automática: A lista de produtos é automaticamente ordenada por valor para facilitar a visualização e comparação de preços.
 
-Possíveis Melhorias Futuras
+## Possíveis Melhorias Futuras
 
 Implementação de um backend para persistência de dados.
 Adição de recursos de busca e filtragem na lista de produtos.
